@@ -1,6 +1,6 @@
 .grid {
-    width: 800px;
-    height: 800px;
+    width: 80px;
+    height: 80px;
     display: flex;
     flex-wrap: wrap;
     border-style: solid;
@@ -8,8 +8,8 @@
 }
 
 .grid div {
-    width: 80px;
-    height: 80px;
+    width: 8px;
+    height: 8px;
 }
 .snake {
     background-color: grey;
