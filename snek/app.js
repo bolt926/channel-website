@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         randomApple()
         direction = 1
         scoreDisplay.innerText = score
-        intervalTime = 100000
+        intervalTime = 1000
         currentSnake = [2,1,0]
         currentIndex = 0
         currentSnake.forEach(index => squares[index].classList.add('snake'))
