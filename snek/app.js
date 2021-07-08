@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             squares[currentSnake[0] + direction].classList.contains('snake') // snake hits itself
         ) {
             return clearInterval(interval)
+            scoreDisplay.innerText = "You got:" + score
         }
 
         const tail = currentSnake.pop() // remove last ite of the array and shows it
